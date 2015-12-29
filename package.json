@@ -18,6 +18,7 @@
     "minimatch": "~0.3.0",
     "pathwatcher": "^6.2",
     "q": "^1.4.1",
+    "require-sql": "^1.0.0",
     "tedious": "^1.13.1",
     "temp": "~0.8.1",
     "typeahead": "^0.2.1",

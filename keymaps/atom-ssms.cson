@@ -3,3 +3,4 @@
 
 'atom-text-editor':
   "ctrl-r" : 'atom-ssms:execute-sql'
+  "ctrl-k ctrl-d" : 'atom-ssms:format-sql'

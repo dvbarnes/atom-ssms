@@ -16,7 +16,6 @@
     "event-kit": "^1.0.0",
     "font-awesome": "^4.5.0",
     "minimatch": "~0.3.0",
-    "octicons": "^3.3.0",
     "pathwatcher": "^6.2",
     "q": "^1.4.1",
     "tedious": "^1.13.1",

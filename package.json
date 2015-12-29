@@ -1,9 +1,9 @@
 {
-  "name": "atom-ssms",
+  "name": "ssms",
   "version": "0.1.0",
   "main": "./lib/main",
   "description": "Explore and open database in the current connection.",
-  "repository": "https://github.com/atom/tree-view",
+  "repository": "https://github.com/dvbarnes/atom-ssms",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

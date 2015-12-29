@@ -33,3 +33,6 @@
     }
     {'label' : "View Dependecies", 'command' : 'sql-tree-view:hello'}
   ]
+  '.server-list .sql-view': [
+    {'label' : "Select Top 1000 Rows", 'command' : 'atom-ssms:select-top-1000'}
+  ]

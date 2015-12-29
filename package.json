@@ -21,6 +21,7 @@
     "q": "^1.4.1",
     "tedious": "^1.13.1",
     "temp": "~0.8.1",
+    "typeahead": "^0.2.1",
     "underscore-plus": "^1.0.0"
   },
   "devDependencies": {

@@ -1,5 +1,5 @@
 'atom-workspace':
-  "ctrl-alt-n": "sql-test-view:convert"
+  "ctrl-alt-n": "atom-ssms:init"
 
 'atom-text-editor':
   "ctrl-r" : 'atom-ssms:execute-sql'

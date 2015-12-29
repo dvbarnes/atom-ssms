@@ -27,7 +27,7 @@
     "coffeelint": "^1.9.7"
   },
   "activationEvents": [
-    "sql-test-view:convert",
+    "atom-ssms:init",
     "atom-ssms:execute-sql"
   ],
   "consumedServices": {

@@ -20,6 +20,9 @@
 ]
 
 'context-menu':
+  '.server-list  .sql-db-server':[
+    {'label' : "Disconnect", 'command' : 'atom-ssms:disconnect'}
+  ]
   '.server-list .sql-table': [
     {'label' : "New Table...", 'command' : 'sql-tree-view:new-table'}
     {'label' : "Design", 'command' : 'sql-tree-view:hello'}

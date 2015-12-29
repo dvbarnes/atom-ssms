@@ -8,12 +8,9 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'Tree View 2'
+      'label': 'SSMS'
       'submenu': [
-        { 'label': 'Focus', 'command': 'tree-view:toggle-focus' }
-        { 'label': 'Toggle', 'command': 'tree-view:toggle' }
-        { 'label': 'Reveal Active File', 'command': 'tree-view:reveal-active-file' }
-        { 'label': 'Toggle Tree Side', 'command': 'tree-view:toggle-side' }
+        { 'label': 'Toggle', 'command': 'atom-ssms:execute-sql' }
       ]
     ]
   }

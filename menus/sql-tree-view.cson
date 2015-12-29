@@ -1,0 +1,35 @@
+'menu': [
+  {
+    'label': 'View'
+    'submenu': [
+      { 'label': 'Toggle Tree View', 'command': 'tree-view:toggle' }
+    ]
+  }
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Tree View 2'
+      'submenu': [
+        { 'label': 'Focus', 'command': 'tree-view:toggle-focus' }
+        { 'label': 'Toggle', 'command': 'tree-view:toggle' }
+        { 'label': 'Reveal Active File', 'command': 'tree-view:reveal-active-file' }
+        { 'label': 'Toggle Tree Side', 'command': 'tree-view:toggle-side' }
+      ]
+    ]
+  }
+]
+
+'context-menu':
+  '.server-list .sql-table': [
+    {'label' : "New Table...", 'command' : 'sql-tree-view:new-table'}
+    {'label' : "Design", 'command' : 'sql-tree-view:hello'}
+    {'label' : "Select Top 1000 Rows", 'command' : 'sql-tree-view:select-top-1000'}
+    {'label' : "Edit Top 200 Rows", 'command' : 'sql-tree-view:hello'}
+    {
+      'label' : "Script Table as"
+      "submenu":[
+        'label' : "Script Table as", 'command' :'sql-tree-view:hello'
+      ]
+    }
+    {'label' : "View Dependecies", 'command' : 'sql-tree-view:hello'}
+  ]

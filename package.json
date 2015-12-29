@@ -1,0 +1,40 @@
+{
+  "name": "atom-ssms",
+  "version": "0.1.0",
+  "main": "./lib/main",
+  "description": "Explore and open database in the current connection.",
+  "repository": "https://github.com/atom/tree-view",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "private": true,
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0",
+    "colresizable": "^1.5.2",
+    "datatables": "^1.10.9",
+    "event-kit": "^1.0.0",
+    "font-awesome": "^4.5.0",
+    "minimatch": "~0.3.0",
+    "octicons": "^3.3.0",
+    "pathwatcher": "^6.2",
+    "q": "^1.4.1",
+    "tedious": "^1.13.1",
+    "temp": "~0.8.1",
+    "underscore-plus": "^1.0.0"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.9.7"
+  },
+  "activationEvents": [
+    "sql-test-view:convert",
+    "atom-ssms:execute-sql"
+  ],
+  "consumedServices": {
+    "atom.file-icons": {
+      "versions": {
+        "1.0.0": "consumeFileIcons"
+      }
+    }
+  }
+}

@@ -26,7 +26,7 @@
   '.server-list .sql-table': [
     {'label' : "New Table...", 'command' : 'sql-tree-view:new-table'}
     {'label' : "Design", 'command' : 'sql-tree-view:hello'}
-    {'label' : "Select Top 1000 Rows", 'command' : 'sql-tree-view:select-top-1000'}
+    {'label' : "Select Top 1000 Rows", 'command' : 'atom-ssms:select-top-1000'}
     {'label' : "Edit Top 200 Rows", 'command' : 'sql-tree-view:hello'}
     {
       'label' : "Script Table as"

@@ -1,6 +1,6 @@
 {
   "name": "ssms",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "./lib/main",
   "description": "Explore and open database in the current connection.",
   "repository": "https://github.com/dvbarnes/atom-ssms",

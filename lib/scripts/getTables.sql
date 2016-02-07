@@ -4,3 +4,4 @@ select
   is_ms_shipped
 from sys.objects
 where type in('U','S')
+order by [TABLE_NAME]
